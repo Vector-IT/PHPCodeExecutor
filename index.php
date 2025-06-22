@@ -18,6 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"/>
 
 	<script src="js/jquery.ns-autogrow.min.js"></script>
 	<script>
@@ -28,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 	<div class="container-fluid">
-		<h1>PHP Code Executor</h1>
+		<h1><i class="ms-Icon ms-Icon--FileCode" aria-hidden="true"></i> PHP Code Executor</h1>
 		<div class="row">
 			<div class="col-md-6">
 				<h4>Code</h4>
